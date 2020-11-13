@@ -5,7 +5,8 @@
 <li><a href={{ p.url }}>{{ p.title }}</a></li>
 {% endfor %}
 
-{% for coll in site.collections %} 
+{% if page.collection != 'commons' %}
+{% for coll in site.collections %}
 {% if coll.label == page.collection %}
 {% for p in coll.docs %} {%if p.category == include.cat %}
 <li><a href={{ p.url }}>{{ p.title }}</a></li>
@@ -13,4 +14,5 @@
 {% endfor %}
 {% endif %}
 {% endfor %}
+{% endif %}
 </ul>

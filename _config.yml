@@ -6,5 +6,7 @@ defaults:
 collections:
   commons:
     output: true
+    title: "Common Information"
   data-structures:
     output: true
+    title: "44-242: Data Structures"
