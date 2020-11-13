@@ -1,6 +1,7 @@
 ---
 title: GitHub Desktop
 category: software
+layout: default
 ---
 
 In this class, we will use [GitHub Desktop](https://desktop.github.com/) for obtaining and submitting most assignments.

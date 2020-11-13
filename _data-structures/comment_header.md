@@ -1,6 +1,7 @@
 ---
 title: Required Source Header
 category: general
+layout: default
 ---
 ```java
 /**

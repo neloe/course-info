@@ -1,6 +1,7 @@
 ---
-title: GitHub Account Setup 
+title: GitHub Account Setup
 category: github
+layout: default
 ---
 
 # 1. Get a free GitHub Account
@@ -14,7 +15,7 @@ You will associate your `nwmissouri` email account in a later step.
 # 2. Configure your name and email address(es) in GitHub
 
 Go to your GitHub Profile (https://github.com/settings/profile if you are logged in, otherwise go to the settings menu in the upper right drop down on the website).
-If you have not provided your name in the Name field, do so. 
+If you have not provided your name in the Name field, do so.
 This makes it easier to for your account to be identified.
 You can also fill in any information in your Bio you want, as well as a URL to an external website (if you have a digital portfolio, for example, this would be an appropriate place to mention it).
 Note that anything you put here will be publicly visible by everyone (including employers) so keep it appropriate.

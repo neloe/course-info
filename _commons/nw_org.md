@@ -1,6 +1,7 @@
 ---
 title: Joining the Northwest GitHub Organization
 category: github
+layout: default
 ---
 
 To view the resources hosted on the `nwmostate` GitHub Organization,  you need to be a member of the organization.  
