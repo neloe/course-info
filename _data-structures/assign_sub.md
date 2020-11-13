@@ -4,7 +4,7 @@ category: assign-info
 layout: default
 ---
 
-If you have not yet [created a GitHub account and installed GitHub Desktop](gh_act_desktop.html), do so now.
+If you have not yet [created a GitHub account](/commons/gh_act.html) and [installed GitHub Desktop](github_desktop.html), do so now.
 
 # Getting an assignment
 

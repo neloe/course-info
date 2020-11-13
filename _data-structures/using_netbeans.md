@@ -5,7 +5,7 @@ layout: default
 ---
 
 This semester we will be using Netbeans.
-If you have not yet, follow the instructions in [Installing the JDK and Netbeans](nb_jdk.html)
+If you have not yet, follow the instructions in [Installing the JDK and Netbeans](devchain.html)
 
 # Opening Projects
 
@@ -29,7 +29,7 @@ You can also hit Alt+F6.
 
 ![Run menu](/assets/img/nb/runtests.PNG)
 
-You can also right click on a file in the left hand pane and select "Test File". 
+You can also right click on a file in the left hand pane and select "Test File".
 This will only run the tests for that one file.
 You can also run the tests for the file you are currently working on with Ctrl+F6.
 
