@@ -8,8 +8,10 @@
 		<title>Home</title>
 	</head>
 	<body>
-		{% for p in site.data-structures %}
-		<a href={{ p.url }}>{{ p.title }}</h1>
+	<ul>
+		{% for c in site.collections %}
+		<li><a href={{ c.url }}>{{ c.label }}</a</li>
 		{% endfor %}
+	</ul>
 	</body>
 </html>
