@@ -1,0 +1,15 @@
+---
+# this do the thing?
+---
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Home</title>
+	</head>
+	<body>
+		{% for p in site.data-structures %}
+		<a href={{ p.url }}>{{ p.title }}</h1>
+		{% endfor %}
+	</body>
+</html>

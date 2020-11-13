@@ -1,0 +1,34 @@
+---
+layout: default
+---
+
+<h2>General Information</h2>
+{% assign pages = site.commons | where:'category', 'general' %}
+{% for p in pages %}
+<a href={{ p.url }}>{{ p.title }}</a>
+{% endfor %}
+
+{% for coll in site.collections %} 
+{% if coll.label == page.collection %}
+{% for p in coll.docs %} {%if p.category == 'general'%}
+<a href={{ p.url }}>{{ p.title }}</a>
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+<h2>Software Requirements</h2>
+{% assign pages = site.commons | where:'category', 'software' %}
+{% for p in pages %}
+<a href={{ p.url }}>{{ p.title }}</a>
+{% endfor %}
+
+{% for coll in site.collections %} 
+{% if coll.label == page.collection %}
+{% for p in coll.docs %} {%if p.category == 'software'%}
+<a href={{ p.url }}>{{ p.title }}</a>
+{% endif %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+
