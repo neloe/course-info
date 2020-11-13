@@ -1,4 +1,19 @@
+{% assign num_pages = site.commons | where:'category', include.cat |size %}
 
+{% if page.collection != 'commons' %}
+  {% for coll in site.collections %}
+    {% if coll.label == page.collection %}
+      {% for p in coll.docs %}
+        {%if p.category == include.cat %}
+          {% assign num_pages = num_pages | plus: 1 %}
+        {% endif %}
+      {% endfor %}
+    {% endif %}
+  {% endfor %}
+{% endif %}
+
+{%if num_pages > 0 %}
+<h2> {{ include.section_title}}</h2>
 <ul>
 {% assign pages = site.commons | where:'category', include.cat %}
 {% for p in pages %}
@@ -16,3 +31,4 @@
 {% endfor %}
 {% endif %}
 </ul>
+{%endif%}

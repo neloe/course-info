@@ -1,15 +1,10 @@
 ---
 layout: default
 ---
+{% include landing_chunk.html cat='general' section_title='General Information' %}
 
-<h2>General Information</h2>
-{% include landing_chunk.html cat='general'%}
+{% include landing_chunk.html cat='software' section_title='Software Requirements' %}
 
-<h2>Software Requirements</h2>
-{% include landing_chunk.html cat='software'%}
+{% include landing_chunk.html cat='github' section_title='GitHub'%}
 
-<h2>Github</h2>
-{% include landing_chunk.html cat='github'%}
-
-<h2>Assignment Information and Requirements</h2>
-{% include landing_chunk.html cat='assign-info'%}
+{% include landing_chunk.html cat='assign-info' section_title = 'Assignment Information and Requirements'%}
