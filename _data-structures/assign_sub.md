@@ -6,25 +6,25 @@ layout: default
 
 If you have not yet [created a GitHub account](/commons/gh_act.html) and [installed GitHub Desktop](github_desktop.html), do so now.
 
-# Getting an assignment
+## Getting an assignment
 
 Your instructor should provide a link, which is an invitation link.
 You may be asked to log into your GitHub account.
 
-## App Authorization (first invitation ever)
+### App Authorization (first invitation ever)
 The first time you accept an assignment invitation, you may see a screen that looks like this:
 
 ![App authorization](/assets/img/ghcr/appauth.PNG)
 
 Choose the green Authorize GitHub button.  This should only happen the first time you accept an invitation in any course.
 
-## Linking your name to your account (first invitation per course)
+### Linking your name to your account (first invitation per course)
 
 If this is the first time you are accepting an invitation in a given course, you will see a screen asking you to Join the classroom.
 You will see a list of Identifiers; choose YOUR name from the list (not the instructor or TA/GA).  
 If your name is not on the list contact your instructor; they can add you to the roster and you'll choose your name at a later date (or they can manually link your account to your name).
 
-## Accepting the assignment
+### Accepting the assignment
 
 Continue until you see a screen with a big green button that says "Accept this assignment".  
 Click the big green button that says "Accept this Assignment".
@@ -53,11 +53,11 @@ After loading, you see a window that looks similar to:
 
 You can ignore this window for now, but we will use this program later.
 
-# Write your Code
+## Write your Code
 
 Complete the assignment as per the instructions provided by your instructor.
 
-# Submitting your Assignment
+## Submitting your Assignment
 
 After completing the assignment, go back to GitHub Desktop.
 It should now look similar to this:
@@ -74,12 +74,12 @@ Once you have committed your changes, you need to select the "Push origin" butto
 When the task is done, it will change to "Fetch origin".
 At that point your assignment is submitted!
 
-## Important
+### Important
 
 Your assignment has not been submitted until the "Push origin" task has completed.
 You can always check to see exactly what has been submitted by going to your GitHub assignment repository page (or refresh it if you didn't close the tab).
 
-## Multiple Submissions (and Commits)
+### Multiple Submissions (and Commits)
 
 You can commit to master as many times as you want between clicking "Push origin"; committing consists of selecting changes you want to keep, providing a message in the lower left pane, and clicking "Commit to master".
 A commit is similar to a save/restore point.  

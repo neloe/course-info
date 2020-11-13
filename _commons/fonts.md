@@ -10,7 +10,7 @@ If you think about reading a book or a web page, there is a lot of research abou
 The funny thing about reading is that the human mind is pretty good at covering for information and filling in the blacnks enabling us to read and comprehend more quickly.
 The role of an individual character is less important.
 
-In programming, though, every character makes a difference. 
+In programming, though, every character makes a difference.
 A single typo, or an added space can render a program uncompilable, or at the very least introduce logical bugs that give incorrect answers.
 In prose, this might slow down a reader, but not make text incomprehensible.
 

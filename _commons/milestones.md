@@ -11,7 +11,7 @@ Some assignments in this course will specify *commit milestones* in the assignme
 For each milestone you are expected to have at least one unique commit that satisfies the milestone.
 The message does not necessarily need to explicitly specify which milestone it satisfies (with the "Milestone x" message), but should contain enough detail to make it clear that the commit corresponds to a specific milestone.
 
-# Example
+## Example
 
 Many programming assignments will have the following mielstone:
 
@@ -27,7 +27,7 @@ Better commit messages might be:
 As you write commit messages, try to briefly summarize the changes you made.
 If you need to have a longer message, add a message body (think of the commit message as an email with a subject and a body if you need more detail).
 
-# Multiple Commits per Milestone
+## Multiple Commits per Milestone
 
 It is difficult to commit too often.  
 In general, if you are going to stop working on a project, you should make a commit and push your work.

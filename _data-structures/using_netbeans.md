@@ -7,7 +7,7 @@ layout: default
 This semester we will be using Netbeans.
 If you have not yet, follow the instructions in [Installing the JDK and Netbeans](devchain.html)
 
-# Opening Projects
+## Opening Projects
 
 Once you have gotten a project (see [Getting and Submitting Assignments](assign_sub.html)), go to File->Open Project.
 Navigate to where you downloaded the project.
@@ -17,7 +17,7 @@ Navigate to where you downloaded the project.
 Notice the little elephant icon next to the project name; that indicates that this is the project you'll be opening.
 If you don't see the elephant icon, you will need to switch directories.
 
-# Running tests
+## Running tests
 
 Many of the labs and assignments are distributed with tests that will determine your "correctness" score.
 You can run these tests to see how well your code works in projects that are distributed with these tests.
@@ -33,9 +33,9 @@ You can also right click on a file in the left hand pane and select "Test File".
 This will only run the tests for that one file.
 You can also run the tests for the file you are currently working on with Ctrl+F6.
 
-# Reading the output
+## Reading the output
 
-The output will clearly show you the nubmer of tests that pass or fail (notice the bottom pane) in the image above
+The output will clearly show you the number of tests that pass or fail (notice the bottom pane) in the image above
 
 ![Test Output](/assets/img/nb/output.PNG)
 
