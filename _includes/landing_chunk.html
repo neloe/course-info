@@ -3,11 +3,7 @@
 {% if page.collection != 'commons' %}
   {% for coll in site.collections %}
     {% if coll.label == page.collection %}
-      {% for p in coll.docs %}
-        {%if p.category == include.cat %}
-          {% assign num_pages = num_pages | plus: 1 %}
-        {% endif %}
-      {% endfor %}
+      {% assign num_pages = num_pages | plus: coll.docs | where:'category', include.cat | size %}
     {% endif %}
   {% endfor %}
 {% endif %}
