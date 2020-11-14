@@ -1,3 +1,4 @@
+baseurl: "/course-info"
 defaults:
   - scope:
       path: "assets/img"

@@ -13,14 +13,14 @@
 <ul>
 {% assign pages = site.commons | where:'category', include.cat %}
 {% for p in pages %}
-<li><a href={{ "/commons"| append: p.url }}>{{ p.title }}</a></li>
+<li><a href={{ site.baseurl }}{{ p.url }}>{{ p.title }}</a></li>
 {% endfor %}
 
 {% if page.collection != 'commons' %}
 {% for coll in site.collections %}
 {% if coll.label == page.collection %}
 {% for p in coll.docs %} {%if p.category == include.cat %}
-<li><a href={{ "/"|append: coll.label | append: p.url }}>{{ p.title }}</a></li>
+<li><a href={{ site.baseurl }}{{ p.url }}>{{ p.title }}</a></li>
 {% endif %}
 {% endfor %}
 {% endif %}
