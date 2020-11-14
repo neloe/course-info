@@ -19,7 +19,7 @@ Some think that the answer is "Just use a monospace font!", but that may not be 
 We use monospace fonts to make alignment of source code easier (varying width spaces are HORRIBLE).
 Consider the following text (image, because embedding fonts in markdown is hard):
 
-![Courier New](/assets/img/fonts/courierl1.PNG)
+![Courier New]({{ '/assets/img/fonts/courierl1.PNG' | relative_url }})
 
 Can you tell the difference between a 1 and an l?  
 You may be able to, but it may take a few seconds.  
