@@ -1,4 +1,4 @@
 ---
-title: Data Structures (44-242)
+title: Foundations of Game Development (44-351)
 layout: course_landing
 ---
