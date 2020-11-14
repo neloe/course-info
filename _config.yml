@@ -10,3 +10,6 @@ collections:
   data-structures:
     output: true
     title: "44-242: Data Structures"
+  game-dev:
+    output: true
+    title: "44-351: Foundations of Game Development"
