@@ -16,7 +16,7 @@ Unity's Frameworks and versions are dealt with through UnityHub; you can downloa
 
 The first time you open UnityHub, you will be greeted with a screen that looks something like this:
 
-![UnityHub First Run](/assets/img/unity_install/firstrun.png)
+![UnityHub First Run]({{ "assets/img/unity_install/firstrun.png" | relative_url }})
 
 Using the person icon in the upper right corner, log in with the Unity ID you created in step 1.
 
@@ -28,15 +28,15 @@ We can now leave the Preferences window by using the Back arrow in the upper lef
 
 Select the Installs tab on the left hand side of the UnityHub interface; you should be greeted with:
 
-![UnityHub interface](/assets/img/unity_install/installs.png)
+![UnityHub interface]({{ "assets/img/unity_install/installs.png" | relative_url }})
 
 Select the "Add" button, then select a release; we will use the Recommended Release (at the time of writing 2019.4.x (LTS))
 
-![Unity Releases](/assets/img/unity_install/releases.png)
+![Unity Releases]({{ "assets/img/unity_install/releases.png" | relative_url }})
 
 Hit Next, then think carefully about this next screen.
 
-![Unity Modules](/assets/img/unity_install/modules.png)
+![Unity Modules]({{ "assets/img/unity_install/modules.png" | relative_url }})
 
 If you are interested in using [Visual Studio Code and .NET Core](netcore-vscode.html) as your editors you do NOT need to install Visual Studio Community 2019 (though it won't hurt anything if you leave it selected).
 

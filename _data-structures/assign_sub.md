@@ -14,7 +14,7 @@ You may be asked to log into your GitHub account.
 ### App Authorization (first invitation ever)
 The first time you accept an assignment invitation, you may see a screen that looks like this:
 
-![App authorization](/assets/img/ghcr/appauth.PNG)
+![App authorization]({{ "assets/img/ghcr/appauth.PNG" | relative_url }})
 
 Choose the green Authorize GitHub button.  This should only happen the first time you accept an invitation in any course.
 
@@ -30,18 +30,18 @@ Continue until you see a screen with a big green button that says "Accept this a
 Click the big green button that says "Accept this Assignment".
 Eventually you should see a page similar to
 
-![Assignment accepted](/assets/img/ghcr/success.PNG)
+![Assignment accepted]({{ "assets/img/ghcr/success.PNG" | relative_url }})
 
 Select the link after it says "Your assignment repository has been created:"; this will lead you to your assignment repository page.
 
-![Assignment repository](/assets/img/ghcr/repo.PNG)
+![Assignment repository]({{ "assets/img/ghcr/repo.PNG" | relative_url }})
 
 Select the green button that says "Code", then choose "Open with GitHub Desktop".
 Your web browser may ask if you want to open that file in GitHub Desktop.
 It is a) safe to do so, and b) safe to "Always open these types of links in the associated app".
 When GitHub Desktop opens, you should see a window that looks similar to:
 
-![Clone pane](/assets/img/ghcr/github_desktop.PNG)
+![Clone pane]({{ "assets/img/ghcr/github_desktop.PNG" | relative_url }})
 
 Do NOT touch the Repository URL.
 However, you can change the Local path to wherever you want to work on your assignment.
@@ -49,7 +49,7 @@ I would create a folder somewhere that will store all of your GitHub Desktop Rep
 Click the Clone button.
 After loading, you see a window that looks similar to:
 
-![Desktop repo](/assets/img/ghcr/cloned.PNG)
+![Desktop repo]({{ "assets/img/ghcr/cloned.PNG" | relative_url }})
 
 You can ignore this window for now, but we will use this program later.
 
@@ -62,7 +62,7 @@ Complete the assignment as per the instructions provided by your instructor.
 After completing the assignment, go back to GitHub Desktop.
 It should now look similar to this:
 
-![Unstaged changes](/assets/img/ghcr/changes.PNG)
+![Unstaged changes]({{ "assets/img/ghcr/changes.PNG" | relative_url }})
 
 In the left pane, make sure that all of the files are selected.
 In the bottom of that panel, leave a summary of your changes and a more detailed description (if appropriate).
