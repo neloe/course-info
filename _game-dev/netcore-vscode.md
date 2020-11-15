@@ -22,3 +22,5 @@ Make sure you obtain the version for your specific operating system (student lap
 
 * [.NET Core](https://dotnet.microsoft.com/download/dotnet-core)
 * [Visual Studio Code](https://code.visualstudio.com/)
+
+### Visual Studio Code Extensions
