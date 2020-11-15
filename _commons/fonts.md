@@ -19,7 +19,7 @@ Some think that the answer is "Just use a monospace font!", but that may not be 
 We use monospace fonts to make alignment of source code easier (varying width spaces are HORRIBLE).
 Consider the following text (image, because embedding fonts in markdown is hard):
 
-![Courier New](/assets/img/fonts/courierl1.PNG)
+![Courier New]({{ 'assets/img/fonts/courierl1.PNG' | relative_url }})
 
 Can you tell the difference between a 1 and an l?  
 You may be able to, but it may take a few seconds.  
@@ -27,7 +27,7 @@ This example is directly based on experiences I've had with students in this cou
 
 What about the following text:
 
-![Calibri](/assets/img/fonts/calibriIl.PNG)
+![Calibri]({{'assets/img/fonts/calibriIl.PNG' | relative_url}})
 
 Which are lower case L's, and which are upper case i's?
 
@@ -35,9 +35,9 @@ A good programmer's font will allow you to easily distinguish between different 
 
 Consider the above texts, but in a different font:
 
-![Hack l1](/assets/img/fonts/hackl1.PNG)
+![Hack l1]({{'assets/img/fonts/hackl1.PNG' | relative_url}})
 
-![Hack lI](/assets/img/fonts/hacklI.PNG)
+![Hack lI]({{'assets/img/fonts/hacklI.PNG' | relative_url}})
 
 The first two examples use Courier New (a variant of the Courier font, which is available almost universally and frequently the default for consoles and IDEs) and Calibri (the default "paragraph" font in MSWord).
 The font used for examples 3 and 4 are from a font called Hack (a typeface designed for programmers).

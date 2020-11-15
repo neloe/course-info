@@ -10,11 +10,11 @@ Go to [AdoptOpenJDK](https://adoptopenjdk.net)
 
 Make sure that OpenJDK11 (LTS) and HotSpot are selected, and download the latest release for your computer (student laptops are Windows x64, or 64 bit Windows).
 
-![JDK Version Selection](/assets/img/jdk_nb/jvm_choose.PNG)
+![JDK Version Selection]({{ "assets/img/jdk_nb/jvm_choose.PNG" | relative_url }})
 
 Run the downloaded installer.  You will reach a screen that looks like this:
 
-![JDK Option Selection](/assets/img/jdk_nb/option_choose.PNG)
+![JDK Option Selection]({{ "assets/img/jdk_nb/option_choose.PNG" | relative_url }})
 
 Select the drop down next to `Set JAVA_HOME variable` and choose "Will be installed on local hard drive".
 Continue on to finish the installation.
@@ -28,7 +28,7 @@ Make sure you download the installer for your system, and run it.
 
 One screen of the installer gives you an option for the specific JDK to use; make sure it poitns to AdoptOpenJDK11 (the path will be similar to the below image).
 
-![AdoptOpenJDK Path](/assets/img/jdk_nb/select_jdk.PNG)
+![AdoptOpenJDK Path]({{ "assets/img/jdk_nb/select_jdk.PNG" | relative_url }})
 
 Finish the installation process.
 
@@ -36,6 +36,6 @@ Finish the installation process.
 
 The first time you open a project in Netbeans 12, you should see a window that looks like this:
 
-![NB Javac](/assets/img/jdk_nb/netbeans-nbjavac.PNG)
+![NB Javac]({{ "assets/img/jdk_nb/netbeans-nbjavac.PNG" | relative_url }})
 
 Follow through the prompts to install the `nb-javac` editing support library (and the JavaFX Implementation for Windows).
