@@ -12,3 +12,6 @@ layout: default
   * I have not followed this yet
   * Video 9 starts a series on making a 2d platformer
 * [Reddit did my job for me](https://www.reddit.com/r/godot/comments/an0iq5/godot_tutorials_list_of_video_and_written/)
+
+Note: there are differences between 3.0 and 3.2, so any tutorials you find that work with 3.0 might need some translating to work in 3.2.
+The first four links are specific to 3.2; the reddit list of tutorials has some 3.0 tutorials.
