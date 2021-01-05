@@ -22,3 +22,10 @@ Make sure you obtain the version for your specific operating system (student lap
 
 * [.NET Core](https://dotnet.microsoft.com/download/dotnet-core)
 * [Visual Studio Code](https://code.visualstudio.com/)
+
+### Changing Your Preferred Editor
+
+In Unity itself (once you have a project open) you can change the editor to whatever you want it to be by going to the preferences window.
+
+![Setting VS Code]({{ "assets/img/vscode/set-editor.gif" | relative_url }})
+### Visual Studio Code Extensions
