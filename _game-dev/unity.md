@@ -1,6 +1,6 @@
 ---
 title: Unity Hub
-category: software
+category: defunct
 layout: default
 ---
 

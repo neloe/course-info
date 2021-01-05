@@ -1,6 +1,6 @@
 ---
 title: Visual Studio Code and .NET Core
-category: software
+category: defunct
 layout: default
 ---
 
