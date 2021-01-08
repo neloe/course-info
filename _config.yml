@@ -14,3 +14,6 @@ collections:
   game-dev:
     output: true
     title: "44-351: Foundations of Game Development"
+  web-mining:
+    output: true
+    title: "44-520: Web Mining"
