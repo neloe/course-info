@@ -26,9 +26,11 @@ If you run Windows 10, there are two possibilities for installing Python 3
 You may be able to install Python 3 directly from the Microsoft Store; this seems to be the easiest way to accomplish this.
 This only is available on newer builds of Windows 10.
 
-#### Download and install manually (only option for previous versions of Windows)
+#### Download and install manually (only option for previous versions of Windows or if Microsoft Store causes errors)
 Download the installer from [here](https://python.org).
 When you run the installer, it is very important that you check the box at the bottom of the setup window that says "Add Python 3.x to PATH" (the x depends on which version you downloaded)
+
+***Note*** If you install python manually this way, you should run `python` instead of `python3` in the following steps.
 
 ## Step 2: Verify that you have Python 3
 
