@@ -21,4 +21,17 @@ To change this default directory, right click on your new shortcut, go to Proper
 
 ### Windows Terminal
 
+You can configure Windows Terminal to open a shell in your virtual environment by adding this to the list of your profiles:
+
+```json
+{
+    "guid": generate_guid,
+    "name": "ds-venv",
+    "commandline": "C:\\Windows\\System32\\cmd.exe /k C:\\Users\\nathan\\ds-venv\\Scripts\\activate",
+    "startingDirectory": "%userprofile%"
+},
+```
+
+Use a [GUID generator](https://www.guidgenerator.com/) to generate the guid (and put it in quotes and {} to match the other profiles).  Additionally, you may want to find and configure an appropriate (and fun) icon for your profile.
+
 ## Jupyter Lab
