@@ -1,4 +1,4 @@
 ---
-title: Foundations of Game Development (44-351)
+title: Web Mining (44-520)
 layout: course_landing
 ---
