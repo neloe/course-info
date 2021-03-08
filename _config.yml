@@ -17,6 +17,6 @@ collections:
   web-mining:
     output: true
     title: "44-520: Web Mining"
-  web-mining-applied-nlp:
+  wm-applied-nlp:
     output: true
     title: "44-620: Web Mining and Applied NLP"
