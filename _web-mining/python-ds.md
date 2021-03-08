@@ -107,15 +107,6 @@ pip install <packagename>
 
 You can specify multiple packages to install by separating the list with spaces.
 
-### Installing Numpy (Windows only)
-
-A lot of packages we will use require the `numpy` package; unfortunately on Windows the newest version exposes a bug in the Windows math co-routines.
-Before installing anything else, we can specify the version of numpy to get installed so we have a safe working version:
-
-```bash
-pip install numpy==1.19.3
-```
-
 If at any time you need a specific version of a package, you can specify it with the `==version` addition to the package name.
 
 ### Installing JupyterLab and Matplotlib
