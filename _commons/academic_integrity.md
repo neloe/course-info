@@ -7,7 +7,7 @@ category: general
  Adopted by the Faculty teaching courses in Computer Science and Information Systems, August 2015.  
  This document presents the position of faculty teaching courses in the areas of computer science and/or information systems, Northwest Missouri State University, Maryville, MO, on the subject of Academic Integrity.
  This document is consistent with the University's overall code of academic integrity, and is presented in the form of a series of questions and answers.
- We are indebted to the Department of Computer Science at [The George Washington University][http://www.cs.gwu.edu/] for publishing an [excellent example](http://www.cs.gwu.edu/academics/integrity.html) for this document to follow; we have adapted (with permission) that department's very well written list of actions that are academically honest and others that are academically dishonest.
+ We are indebted to the Department of Computer Science at [The George Washington University](http://www.cs.gwu.edu/) for publishing an [excellent example](http://www.cs.gwu.edu/academics/integrity.html) for this document to follow; we have adapted (with permission) that department's very well written list of actions that are academically honest and others that are academically dishonest.
 
 ### Q. What is academic integrity?
 
