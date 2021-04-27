@@ -1,5 +1,5 @@
 ---
-title: Installing the JDK and Apache Netbeans
+title: Installing the JDK and IntelliJ IDEA 
 layout: default
 category: software
 ---
