@@ -1,7 +1,7 @@
 ---
 title: Installing the JDK and Apache Netbeans
 layout: default
-category: software
+category: none
 ---
 
 ## Getting the JDK
@@ -21,8 +21,8 @@ Continue on to finish the installation.
 
 ## Apache Netbeans
 
-Download the newest version of Apache Netbeans from https://netbeans.apache.org/ .
-At the time of writing this page, the newest version is [12.2](https://netbeans.apache.org/download/nb122/nb122.html).
+Download the newest version of [Apache Netbeans](https://netbeans.apache.org/download/index.html).
+At the time of writing this page, the newest version is [12.3](https://netbeans.apache.org/download/nb123/nb123.html).
 Make sure you download the installer for your system, and run it.
 
 One screen of the installer gives you an option for the specific JDK to use; make sure it points to AdoptOpenJDK11 (the path will be similar to the below image).
