@@ -25,3 +25,8 @@ Download the _community_ version of JetBrains [IntelliJ IDEA](https://www.jetbra
 If you want, you can apply for an [educational account](https://www.jetbrains.com/community/education/#students) to get the Ultimate version for free, but we will not be needing the additional features. 
 
 Run the installer, accepting the defaults; feel free to add the desktop and context menu shortcuts on the installer screen with those options.
+
+When you open a project, you will be asked if you want to trust that project.
+This will happen for every project in this class.
+
+You may want to [set the directory you clone your assignments in as a trusted location](https://www.jetbrains.com/help/idea/project-security.html#trust_sources) so this box doesn't come up.
