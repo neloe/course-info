@@ -1,7 +1,7 @@
 ---
 title: Installing the JDK and Apache Netbeans
 layout: default
-category: none
+category: software
 ---
 
 ## Getting the JDK
