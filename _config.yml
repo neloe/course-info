@@ -17,3 +17,6 @@ collections:
   web-mining:
     output: true
     title: "44-520: Web Mining"
+  operating-systems:
+    output: true
+    title: "44-550: Operating Systems"
