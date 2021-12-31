@@ -11,6 +11,9 @@ collections:
   data-structures:
     output: true
     title: "44-242: Data Structures"
+  survey-of-algorithms:
+    output: true
+    title: "44-349: Survey of Algorithms"
   game-dev:
     output: true
     title: "44-351: Foundations of Game Development"
