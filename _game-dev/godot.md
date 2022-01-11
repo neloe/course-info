@@ -6,9 +6,9 @@ layout: default
 
 ## Downloading Godot
 
-### Required Godot version: Standard Version 3.2 (not Mono version)
+### Required Godot version: Standard Version (Latest stable version; currently 3.4.x) (not Mono version)
 
-Download the required version of [Godot](https://godotengine.org/).
+Download the required version of [Godot](https://godotengine.org/download).
 The student laptops are running 64-bit Windows; if you are using a personal computer download the appropriate version.
 
 There is no install; all you need to do is download and extract the executable.
