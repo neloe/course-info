@@ -12,7 +12,7 @@ Download the Latest LTS release for your computer and OS (student laptops are Wi
 
 Run the downloaded installer.  You will reach a screen that looks like this:
 
-![JDK Option Selection]({{ "assets/img/jdk_nb/option_choose.PNG" | relative_url }})
+<!--- ![JDK Option Selection]({{ "assets/img/jdk_nb/option_choose.PNG" | relative_url }}) --->
 
 Select the drop down next to `Set JAVA_HOME variable` and choose "Will be installed on local hard drive".
 Continue on to finish the installation.

@@ -10,7 +10,7 @@ Go to [Adoptium](https://adoptium.net)
 
 Download the Latest LTS release for your computer and OS (student laptops are Windows x64, or 64 bit Windows)
 
-![JDK Version Selection]({{ "assets/img/jdk_nb/jvm_choose.PNG" | relative_url }})
+<!--- ![JDK Version Selection]({{ "assets/img/jdk_nb/jvm_choose.PNG" | relative_url }}) --->
 
 Run the downloaded installer.  You will reach a screen that looks like this:
 
