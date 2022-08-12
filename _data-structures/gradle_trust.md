@@ -8,7 +8,8 @@ The first time you open each project in NetBeans, you may be greeted with this d
 
 ![Project Problems]({{ "assets/img/gradle/need_priming.png" | relative_url }})
 
-This appears because NetBeans needs to execute what is known as a "priming build" to resolve project dependencies.
+This appears because NetBeans needs to execute what is known as a "priming build" to resolve project dependencies.  
+Additionally, you may need to let Netbeans use a new version of it's build system
 
 If you close this window, you can fix it by clicking the "build" icon in the toolbar (![Build Icon](img/gradle/build.png)), but we can configure NetBeans to automatically trust projects as we open them.
 
@@ -24,4 +25,5 @@ Towards the bottom of this page (under the "Execution" category) you should see 
 ![Gradle Options]({{ "assets/img/gradle/opts_gradle.png" | relative_url }})
 
 In the dropdown menu, select "Always", then hit the "Apply" button at the bottom of the options dialog.
+Additionally, you may need to *uncheck* the box that says `Prefer to use Gradle Wrapper that Comes with the Project` (you may only need to do this if you are using JDK 17).
 From now on, when you first open a project from this class in NetBeans, you should not see that Project Problems dialog box!

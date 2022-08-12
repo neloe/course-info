@@ -6,9 +6,9 @@ category: software
 
 ## Getting the JDK
 
-Go to [AdoptOpenJDK](https://adoptopenjdk.net)
+Go to [Adoptium](https://adoptium.net)
 
-Make sure that OpenJDK11 (LTS) and HotSpot are selected, and download the latest release for your computer (student laptops are Windows x64, or 64 bit Windows).
+Download the Latest LTS release for your computer and OS (student laptops are Windows x64, or 64 bit Windows)
 
 ![JDK Version Selection]({{ "assets/img/jdk_nb/jvm_choose.PNG" | relative_url }})
 
