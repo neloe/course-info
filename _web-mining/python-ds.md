@@ -46,6 +46,7 @@ or
 C:\Users\nathane>python3 --version
 Python 3.9.0
 ```
+You may need to run `python` or `py` in Windows; the method of installation seems to change things.
 
 The second number doesn't matter; what's important is that you have Python 3.x.y installed; if you see Python 2, you may need to install Python 3 again and make sure your path is set correctly.  You should have at least Python 3.8 (JupyterLab requires >= Python 3.5, other packages may have newer dependencies)
 
@@ -83,8 +84,20 @@ At this point, our virtual environment is set up.  Whenever we want to use pytho
 ### MacOS/Linux
 `source ds-venv/bin/activate`
 
-### Windows
+### Windows: Windows Terminal (Recommended for Windows 10/11)
 
+Install Windows Terminal; you can download the [msixbundle](https://github.com/microsoft/terminal/releases/tag/v1.18.3181.0) or run the following in Powershell (assuming your computer has `winget` installed: `winget install -e --id Microsoft.WindowsTerminal`
+
+Open Windows Terminal, and open the settings page by either hitting the down arrow and selecting Settings or using the keyboard shortcut `Ctrl + ,`.
+Scroll down and select "+ Add a new profile".
+When prompted to Duplicate a Profile, choose "Windows Powershell", then press the Duplicate button.
+
+In the settings screen, change the name to something descriptive (like "Web Mining Virtual Environment").
+Change the command to `%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -File "%userprofile%\ds-venv\Scripts\activate.ps1"` (changing ds-venv to the name of the folder containing your virtual environment.
+Save your settings and open a new Web Mining Virtual Environment tab and run `python -m pip install jupyterlab`
+
+
+### Manual Activation
 Make sure you use `cmd` or [allow scripts to be run from PowerShell](https://docs.microsoft.com/en-us/powershell/module/microsoft.powershell.security/set-executionpolicy?view=powershell-7.1)
 
 `ds-venv\Scripts\Activate`
@@ -142,7 +155,11 @@ If you open a shell and install packages while you are running JupyterLab, you w
 One option (if you want to avoid using a terminal) is to open the directory where you created your virtual environment, and run `jupyter-lab` from either the `bin` or `Scripts` directory, depending on whether you're on MacOS or Windows, respectively.  Windows may open a web browser that says it cannot find the file; copy and paste the URLs (usually `httplocalhost:8888/?token=<sometoken>`) and paste it in your browser.
 You should be able to create shortcuts to this `jupyter-lab` to make it easier to find.  Consult your OS and the internet on how to do this correctly.
 
-Otherwise:
+### Windows Terminal
+Open your settings tab and create a new profile.  Duplicate Powershell, change the name to something descriptive, and the command to `%userprofile%\wmvenv\Scripts\python -m jupyterlab`.
+Every time you open a terminal tab with this profile it will start Jupyter Lab and open a tab in a web browser.
+
+### Otherwise
 
 1. Open a terminal
 1. Activate your virtual environment
