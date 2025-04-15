@@ -11,16 +11,13 @@ All posters must be designed to be 48 inches wide by 36 inches tall.
 [Poster Templates (School of CSIS)](https://github.com/nwmostate/csis-poster-templates)
 
 I've been scourint the internet looking for good poster tutorials and design ideas. 
-Here are a few interesting videos worth watching:
+Here are a few interesting videos worth watching (Work in progress; some of these have been taken down):
 
-* [Research Poster Design Tutorial / Layout](https://www.youtube.com/watch?v=k6FzrwW3oKQ)
 * [Making A Better Research Poster](https://www.youtube.com/watch?v=AwMFhyH7_5g)
 
 ## Additional Template Options
 
-* [Science Project Poster](https://templates.office.com/en-us/Science-project-poster-TM00001151)
-* [Poster Blue and Green Design](https://templates.office.com/en-us/Poster-blue-and-green-design-TM00001058)
-* [Poster Blue and Brown Design](https://templates.office.com/en-us/Poster-blue-and-brown-design-TM00001023)
+* [PosterPresentations Templates](https://www.posterpresentations.com/free-poster-templates.html)
 * [MakeSigns Science Posters Templates](https://www.makesigns.com/SciPosters_Templates.aspx)
 
 ## Other Information
